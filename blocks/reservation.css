@@ -1,0 +1,23 @@
+/* === BOOK SECTION === */
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url('../images/background_reservation.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reservation__title {
+  font-family: 'Inter', sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.reservation__subtitle {
+  font-size: 20px;
+  color: #6F6F6F;
+  margin-bottom: 32px;
+}
