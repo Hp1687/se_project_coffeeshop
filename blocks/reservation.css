@@ -5,19 +5,35 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 40px 20px;
-  text-align: center;
+  padding: 100px 20px;
 }
 
 .reservation__title {
   font-family: 'Inter', sans-serif;
   font-size: 44px;
+  line-height:80px;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-align: center;
 }
 
-.reservation__subtitle {
+.reservation__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
   font-size: 20px;
-  color: #6F6F6F;
-  margin-bottom: 32px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 80px;
 }
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+

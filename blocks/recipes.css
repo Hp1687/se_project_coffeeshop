@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .recipes__video {
@@ -53,4 +54,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }

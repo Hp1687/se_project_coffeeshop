@@ -16,6 +16,8 @@
 }
 
 .footer__column-heading {
+  font-size: 16px;
+  line-height: 20px;
   margin: 0 0 20px;
 }
 
@@ -33,6 +35,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .footer__social-icon {
@@ -47,9 +50,9 @@
 
 .footer__list-item {
   display: inline-block;
-  margin: 0 8px;
 }
 
 .footer__social-link:hover {
   color: #C1C1C1;
+  transform: scale(1.05);
 }
