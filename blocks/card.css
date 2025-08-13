@@ -31,6 +31,7 @@
   line-height: 20px;
   color: #000;
   margin-bottom: 16px;
+  align-items: baseline;
 }
 
 .card__list-divider {
